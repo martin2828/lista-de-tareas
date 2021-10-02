@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(74, 252, 234), rgb(8, 236, 8));
+    text-align: center;
+    margin: 10px;
+    font-family: Century Gothic;
+}
+
+#global {
+    height: 5em;
+    width: 20em;
+    border: 10px solid transparent;
+    border-radius: 10px;
+    background-color: rgb(241, 153, 52);
+}
+
+#title {
+    margin: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+#description {
+    margin: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+#button {
+    color: black;
+}

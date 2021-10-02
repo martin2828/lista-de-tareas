@@ -5,7 +5,7 @@ let $div = document.getElementById("div");
 
 let recovery = () => {
     if (!localStorage.getItem("content")) {
-        alert("mal")
+
     }else {
         let content = localStorage.getItem("content")
         $div.insertAdjacentHTML("beforeend", content)
